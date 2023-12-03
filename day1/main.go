@@ -53,7 +53,7 @@ func calcSum(path string) (int, error) {
 }
 
 func main() {
-	path := "resources/day_1/input-full.txt"
+	path := "input/input-full.txt"
 	result, err := calcSum(path)
 	if err != nil {
 		log.Fatal(err)
